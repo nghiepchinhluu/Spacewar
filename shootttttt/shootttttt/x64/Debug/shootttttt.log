@@ -1,0 +1,53 @@
+﻿  OOP.cpp
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(23,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(47,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(49,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(51,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(53,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,23): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,35): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,44): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,44): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,49): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(80,49): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(115,1): warning C4305: '=': truncation from 'double' to 'float'
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(152,1): warning C4305: 'initializing': truncation from '__int64' to 'float'
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(161,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(176,1): warning C4305: '*=': truncation from 'double' to 'float'
+D:\laptop\D\shootttttt\shootttttt\Headers\objects.h(177,1): warning C4305: '*=': truncation from 'double' to 'float'
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(80,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(221,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(222,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(247,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(252,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(253,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(258,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(258,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(270,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(271,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(281,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(282,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(292,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(293,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(357,13): warning C4018: '>=': signed/unsigned mismatch
+D:\laptop\D\shootttttt\shootttttt\OOP.cpp(360,27): warning C4244: '/=': conversion from 'double' to 'unsigned int', possible loss of data
+OOP.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "void __cdecl load_Image(struct SDL_Texture * *,char const *)" (?load_Image@@YAXPEAPEAUSDL_Texture@@PEBD@Z)
+OOP.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "public: void __cdecl Player::update_Direction(void)" (?update_Direction@Player@@QEAAXXZ)
+OOP.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "void __cdecl load_Image(struct SDL_Texture * *,char const *)" (?load_Image@@YAXPEAPEAUSDL_Texture@@PEBD@Z)
+OOP.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: void __cdecl Object::draw(struct SDL_Renderer *,struct SDL_Texture *)" (?draw@Object@@QEAAXPEAUSDL_Renderer@@PEAUSDL_Texture@@@Z)
+OOP.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+OOP.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "void __cdecl load_Image(struct SDL_Texture * *,char const *)" (?load_Image@@YAXPEAPEAUSDL_Texture@@PEBD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+Headers\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Headers\SDL2-2.0.8\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\laptop\D\shootttttt\x64\Debug\shootttttt.exe : fatal error LNK1120: 13 unresolved externals
